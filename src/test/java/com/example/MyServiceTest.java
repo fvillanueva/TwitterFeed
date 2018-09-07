@@ -60,6 +60,11 @@ public class MyServiceTest {
         assertNotNull(responseMsg);
     }
     */
+    @Test
+    public void testAppConnect(){
+        String appName="Prima SOA";
+        assertNotNull(appName);
+    }
     
     @Test
     public void testGetTimeseriesIndex() {
